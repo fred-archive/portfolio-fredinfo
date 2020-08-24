@@ -1,38 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Major+Mono+Display&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h3 {
+  font-family: 'Major Mono Display', monospace;
+  /* margin: 25px; */
+  margin: 0;
+  padding: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.block {
+  width: 50vw;
+  padding: 15px 0;
+  border: solid black;
+  border-width: 3px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.block:hover {
+  cursor: pointer;
+}
+
+.box {
+  border: 1px solid black;
+  width: 80%;
+  height: 180px;
+  margin: 25px auto;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 0;
+}
+
+.boxes {
+  padding: 25px 0;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.selected {
+  background: black;
+  background: purple;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  min-height: calc(100vh - 185px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: black;
+}
+
+header {
+  background: white;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  background: purple;
+  height: 100px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: solid black;
 }
