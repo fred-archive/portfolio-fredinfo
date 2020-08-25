@@ -1,77 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Major+Mono+Display&display=swap');
-
 .App {
   text-align: center;
-}
-
-h1, h3 {
-  font-family: 'Major Mono Display', monospace;
-  margin: 0;
-  padding: 25px;
-}
-
-.block {
-  width: 50vw;
-  padding: 15px 0;
-  border: solid black;
-  border-width: 3px 0;
-}
-
-.block:hover {
-  cursor: pointer;
-}
-
-.box {
-  border: 1px solid black;
-  width: 80%;
-  height: 180px;
-  margin: 25px auto;
-}
-
-hr {
-  border: 2px solid black;
-  margin: 0;
-}
-
-.boxes {
-  padding: 25px 0;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: center;
-  align-items: center;
-}
-
-.selected {
-  background: black;
-  background: purple;
-  color: white;
-}
-
-.body {
-  max-width: 500px;
-  margin: 0 auto;
-  background: white;
-  min-height: calc(100vh - 185px);
 }
 
 body {
   background: black;
 }
 
-header {
-  background: white;
-  height: 100%;
+.display {
   max-width: 500px;
   margin: 0 auto;
+  /* background: white; */
+  min-height: 100vh;
 }
 
-footer {
-  background: purple;
-  height: 100px;
-  max-width: 500px;
-  margin: 0 auto;
-  border-top: solid black;
+img {
+  /* height: 450px; */
+  width: 100vw;
+  margin-top: -50px;
+  margin-bottom: -5px;
+}
+
+h1, h2 {
+  padding-top: 15px;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.pink {
+  background: pink;
+  background: dimgray;
+  background: lightblue;
+  /* border-radius: 50%; */
+}
+
+.display {
+  background: black;
+  color: white;
 }
