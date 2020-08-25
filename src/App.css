@@ -5,20 +5,18 @@
 body {
   background: black;
   box-sizing: border-box;
+  color: white;
 }
 
 .display {
   max-width: 500px;
-  margin: 0 auto;
-  /* background: white; */
-  min-height: 100vh;
 }
 
 img {
   width: 100vw;
   max-width: 500px;
   margin-bottom: -20px;
-  margin-top: -85px;
+  /* margin-top: -85px; */
 }
 
 h1, h2 {
@@ -36,14 +34,16 @@ h4 {
 }
 
 .pink {
-  background: pink;
-  background: dimgray;
-  background: lightblue;
+  background: black;
+  background: navy;
+  background: slategray;
   border-radius: 50%;
-  /* border: 8px solid white; */
+  border: 2px solid white;
 }
 
-.display {
-  background: black;
-  color: white;
+.flex {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
 }
