@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Major+Mono+Display&display=swap');
 
 .App {
@@ -8,7 +6,6 @@
 
 h1, h3 {
   font-family: 'Major Mono Display', monospace;
-  /* margin: 25px; */
   margin: 0;
   padding: 25px;
 }

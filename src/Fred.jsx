@@ -8,7 +8,6 @@ export const Fred = () => {
         <div>
             <Header/>
             <div className='body'>
-            {/* <hr /> */}
             <nav>
                 <div onClick={() => toggleAbout(true)} className={`block ${showAbout && 'selected'}`} >
                 <h3>about</h3>
@@ -22,7 +21,6 @@ export const Fred = () => {
                 <div className='boxes'>
                 <div className="box"></div>
                 <div className="box"></div>
-                {/* <div className="box"></div> */}
             </div>
             )}
             </div>
