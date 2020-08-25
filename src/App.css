@@ -4,6 +4,7 @@
 
 body {
   background: black;
+  box-sizing: border-box;
 }
 
 .display {
@@ -14,27 +15,32 @@ body {
 }
 
 img {
-  /* height: 450px; */
   width: 100vw;
-  margin-top: -50px;
-  margin-bottom: -5px;
+  max-width: 500px;
+  margin-bottom: -20px;
+  margin-top: -85px;
 }
 
 h1, h2 {
-  padding-top: 15px;
+  padding-top: 50px;
   margin: 0;
+}
+
+h2 {
+  padding-top: 45px;
 }
 
 h4 {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 
 .pink {
   background: pink;
   background: dimgray;
   background: lightblue;
-  /* border-radius: 50%; */
+  border-radius: 50%;
+  /* border: 8px solid white; */
 }
 
 .display {

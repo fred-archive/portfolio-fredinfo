@@ -9,9 +9,6 @@ export const Display = () => {
             <div className='pink'>
             <img src={fred} alt="" />
             </div>
-            <div className='about'>
-                <h2>about</h2>
-            </div>
         </div>
     )
 }
