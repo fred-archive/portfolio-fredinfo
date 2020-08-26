@@ -8,8 +8,16 @@ export const Display = () => {
                 <div className='pink'>
                     <img src={fred} alt="" />
                 </div>
-                <h1>Fred Davison</h1>
-                <h4>web developer</h4>
+                <div>
+                    <h1>Fred Davison</h1>
+                    <h4>web developer</h4>
+                    <a href='https://github.com/fdavison1' target='_blank' rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href='https://www.linkedin.com/in/fdavison1/' target='_blank' rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
             </div>
         </div>
     )
