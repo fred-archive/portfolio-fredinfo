@@ -28,8 +28,18 @@ h1 {
 
 h4 {
   margin: 0;
-  margin-bottom: 65px;
   font-size: 1.25rem;
+}
+
+i {
+  margin: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+i:hover {
+  color: slategray;
+  cursor: pointer;
 }
 
 .pink {
@@ -41,7 +51,7 @@ h4 {
 .flex {
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 95vh;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
