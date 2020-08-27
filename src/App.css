@@ -4,24 +4,24 @@
 
 body {
   background: black;
-  box-sizing: border-box;
   color: white;
+  box-sizing: border-box;
 }
 
 .display {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 img {
   width: 90vw;
   max-width: 400px;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
   border-radius: 30%;
   margin-top: -12.5vh;
 }
 
 h1 {
-  padding-top: 50px;
+  padding-top: 30px;
   margin: 0;
   font-size: 2.5rem;
 }
@@ -42,16 +42,16 @@ i:hover {
   cursor: pointer;
 }
 
-.pink {
+.circle {
   background: slategray;
   border-radius: 50%;
   margin: 5px;
+  min-height: 250px;
 }
 
 .flex {
   display: flex;
   align-items: center;
-  height: 95vh;
+  height: 100vh;
   justify-content: center;
-  margin-top: 5vh;
 }

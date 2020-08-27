@@ -5,7 +5,7 @@ export const Display = () => {
     return (
         <div className='flex'>
             <div className='display'>
-                <div className='pink'>
+                <div className='circle'>
                     <img src={fred} alt="" />
                 </div>
                 <div>
